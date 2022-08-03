@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".setting"
+    android:layout_margin="15dp">
+
+    <TextView
+        android:id="@+id/profile_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:id="@+id/favorites_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_setting"
+        android:layout_marginTop="45dp"
+        android:text="Favorites"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/SetReadReminder_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/favorites_setting"
+        android:layout_marginTop="45dp"
+        android:text="Set Read Reminders"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/DeleteInfo_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DELETE INFO"
+        android:textSize="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

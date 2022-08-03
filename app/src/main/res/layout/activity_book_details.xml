@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Book_Details"
+    android:layout_margin="15dp">
+    <ImageView
+        android:id="@+id/bookdetail_image"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/bookdetail_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bookdetail_image"
+        android:text="Title"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/bookdetail_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bookdetail_title"
+        android:text="Author"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/bookdetail_rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bookdetail_author"
+        android:text="Rating"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/bookdetail_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bookdetail_rating"
+        android:text="Description"
+        android:textSize="20dp"/>
+
+</RelativeLayout>
